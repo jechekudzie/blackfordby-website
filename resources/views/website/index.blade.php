@@ -25,7 +25,7 @@ Hero Area
                                     <h1 class="hero-title">Transforming Agriculture, One Student at a Time</h1>
                                     <p class="hero-text">Empowering future leaders in sustainable farming and
                                         agribusiness.</p>
-                                    <a href="{{ route('website.programs') }}" class="vs-btn">Explore Programs</a>
+                                    <a href="{{ route('website.admissions') }}" class="vs-btn">Explore Programs</a>
                                 </div>
                             </div>
                         </div>
@@ -40,7 +40,7 @@ Hero Area
                                     <h1 class="hero-title">Join the Legacy of Excellence at Blackfordby</h1>
                                     <p class="hero-text">50 years of shaping agricultural professionals across the
                                         region.</p>
-                                    <a href="{{ route('website.about') }}" class="vs-btn">Learn More</a>
+                                    <a href="{{ route('website.programs.fulltime') }}" class="vs-btn">Learn More</a>
                                 </div>
                             </div>
                         </div>
