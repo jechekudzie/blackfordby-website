@@ -1,0 +1,198 @@
+ /* Additional CSS specific to this page */
+.about-icon i {
+    font-size: 3rem;
+    color: #6c757d; /* Adjust as needed */
+}
+
+
+ /* Admissions */
+.admissions-layout1 {
+    background-color: #333; /* Dark background for better white text contrast */
+    padding: 60px 0;
+}
+
+.admissions-content {
+    color: white;
+}
+
+.admissions-content .sec-title {
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.admissions-content .admissions-text {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.admissions-subtitle {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.admissions-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* How to apply */
+.apply-layout1 {
+    background-color: #444; /* Darker shade for contrast */
+    padding: 60px 0;
+}
+
+.apply-content {
+    color: white;
+}
+
+.apply-content .sec-title {
+    color: white;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.apply-content .apply-text {
+    color: white;
+    margin-bottom: 30px;
+    font-size: 16px;
+}
+
+.apply-content ul {
+    padding-left: 0;
+}
+
+.apply-content ul li {
+    margin-bottom: 15px;
+}
+
+.apply-content ul li span.icon {
+    color: #ffc107; /* Highlight for icons */
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.apply-img img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+ .media-style1 .media-icon i {
+     font-size: 24px; /* Adjust icon size */
+     color: var(--theme-color); /* Use your theme's primary color */
+     margin-right: 10px; /* Add spacing between icon and text */
+ }
+
+ .vision-mission-layout4 {
+     padding: 60px 0;
+     background-color: #222; /* Dark background for better contrast */
+ }
+
+ .vision-mission-layout4 .content-area {
+     margin-bottom: 30px;
+ }
+
+ .vision-mission-layout4 .subtitle {
+     font-size: 18px;
+     font-weight: 600;
+     margin-bottom: 10px;
+     color: var(--theme-color); /* Your theme's primary color */
+ }
+
+ .vision-mission-layout4 .subheading {
+     font-size: 20px;
+     font-weight: 600;
+     margin-bottom: 10px;
+     color: var(--theme-color); /* Your theme's primary color */
+ }
+
+ .vision-mission-layout4 .text-light {
+     font-size: 16px;
+     line-height: 1.8;
+     color: #f8f9fa; /* Light text for readability on dark background */
+ }
+
+ .vision-mission-layout4 ul {
+     margin-top: 10px;
+     padding-left: 20px;
+ }
+
+ .vision-mission-layout4 ul li {
+     font-size: 16px;
+     line-height: 1.8;
+     margin-bottom: 10px;
+     color: #f8f9fa; /* Light text */
+     display: flex;
+     align-items: center;
+ }
+
+ .vision-mission-layout4 ul li i {
+     margin-right: 10px;
+     color: var(--theme-color); /* Accent color for icons */
+     font-size: 18px;
+ }
+
+ .vision-mission-layout4 .image-area img {
+     border-radius: 8px;
+     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+ }
+
+ .media-style1 .media-title {
+     font-weight: bold;
+     margin-bottom: 0.5rem;
+ }
+
+ .media-style1 .media-icon {
+     display: inline-block;
+     color: var(--theme-color);
+ }
+
+ .text-theme {
+     color: #FFD700; /* Adjust as per your theme color */
+ }
+
+ .text-theme:hover {
+     text-decoration: underline;
+ }
+
+/* Application forms */
+ .application-form .form-section-title {
+     font-size: 1.5rem;
+     margin-bottom: 20px;
+     font-weight: bold;
+     color: #333;
+ }
+
+ .application-form .form-control {
+     border: 1px solid #ddd;
+     padding: 10px;
+     border-radius: 5px;
+     font-size: 1rem;
+     margin-bottom: 15px;
+ }
+
+ .application-form .vs-btn {
+     background-color: #28a745;
+     color: #fff;
+     padding: 10px 20px;
+     text-transform: uppercase;
+     border-radius: 5px;
+ }
+
+ .application-form .form-text {
+     font-size: 0.9rem;
+     color: #666;
+ }
+
+ .application-form .form-fee-list {
+     list-style: none;
+     padding-left: 0;
+     color: #333;
+ }
+
+ .application-form .form-fee-list li {
+     margin-bottom: 5px;
+ }
+
