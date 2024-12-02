@@ -85,8 +85,11 @@ Breadcumb
                                 <div class="media-icon"><i style="color: black;" class="fas fa-phone-alt"></i></div>
                                 <div class="media-body">
                                     <h3 class="media-title">Phone No:</h3>
-                                    <p class="media-info"><a href="tel:+263772887370">+263 772 887 370</a><br> Mon -
-                                        Sat: 09.00 to 06.00</p>
+                                    <p class="media-info">
+                                        <a href="tel:+263772887370">+263 772 887 370</a><br/>
+                                        <a href="tel:+263772887370">+263775 884 968</a>
+                                        <br> Mon -
+                                        Sat: 08.00 to 16.30</p>
                                 </div>
                             </div>
                             <div class="media-style1">
@@ -94,8 +97,8 @@ Breadcumb
                                 <div class="media-body">
                                     <h3 class="media-title">Email Address:</h3>
                                     <p class="media-info">
-                                        <a href="mailto:admin@blackfordby.co.zw">admin@blackfordby.co.zw</a><br>
-                                        <a href="mailto:agfordby@mweb.co.zw">agfordby@mweb.co.zw</a>
+                                        <a href="mailto:info@blackfordbyagric.ac.zw">info@blackfordbyagric.ac.zw</a><br>
+                                        <a href="mailto:info@blackfordby.co.zw">info@blackfordby.co.zw</a>
                                     </p>
                                 </div>
                             </div>

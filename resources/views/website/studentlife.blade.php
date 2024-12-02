@@ -11,7 +11,7 @@
     <!--==============================
     Breadcumb
     ===============================-->
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/images/blackfordsiteimages_Studentlife.png') }}">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/images/BlackfordSiteImages_Student_life.jpg') }}">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Student Life</h1>
@@ -103,7 +103,7 @@
                 </div>
                 <div class="col-lg-6">
                     <div class="about-img">
-                        <img src="{{ asset('assets/images/blackfordsiteimages_HomeAway.png') }}" alt="Student Life" class="img-fluid">
+                        <img src="{{ asset('assets/images/BlackfordSiteImages_HomeAway.jpg') }}" alt="Student Life" class="img-fluid">
                     </div>
                     <div class="img-content">
                         <h2 class="img-title h4">Discover Your Home Away From Home</h2>
@@ -163,7 +163,7 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="service-img">
-                            <img src="{{ asset('assets/images/blackfordsiteimages_Leadership.png') }}" alt="Extracurricular Activities">
+                            <img src="{{ asset('assets/images/BlackfordSiteImages_Leadership.jpg') }}" alt="Extracurricular Activities">
                         </div>
                     </div>
                 </div>

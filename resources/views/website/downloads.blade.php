@@ -37,16 +37,9 @@
             <div class="row gy-4">
                 @php
                     $documents = [
-                        ['title' => 'Academic Calendar GAD27 Trimester 01', 'filename' => 'Academic Calendar GAD27 Trimester 01.pdf'],
-                        ['title' => 'Application Form GAD27', 'filename' => 'Application Form GAD27.pdf'],
-                        ['title' => 'Application Form GADPT03 September 2023', 'filename' => 'Application Form GADPT03 September 2023.pdf'],
-                        ['title' => 'Attachment Assessment Form 2024', 'filename' => 'Attachment Assessment Form 2024.pdf'],
-                        ['title' => 'Drug and Substance Abuse Policy 2024 - 2026', 'filename' => 'Blackfordby College Drug and Substance Abuse Policy 2024 - 2026.pdf'],
-                        ['title' => 'Blackfordby Flyer 2024', 'filename' => 'Blackfordby Flyer 2024.pdf'],
-                        ['title' => 'Student Code of Conduct 2024 - 2026', 'filename' => 'Blackfordby Student Code of Conduct 2024 - 2026.pdf'],
-                        ['title' => 'College Indemnity Form 2024', 'filename' => 'College Indemnity Form 2024.pdf'],
-                        ['title' => 'College Licence 2024', 'filename' => 'College Licence 2024.pdf'],
-                        ['title' => 'GADPT03 Semester 02 Calendar', 'filename' => 'GADPT03 Semester 02 Calendar.pdf']
+                        ['title' => 'Application Form GAD28 May 2025 Full Time Intake', 'filename' => 'Application Form GAD28 May 2025 Full Time Intake.pdf'],
+                        ['title' => 'Prospectus GAD28 May 2025 Full Time Intake', 'filename' => 'Prospectus GAD28 May 2025 Full Time Intake.pdf'],
+
                     ];
                 @endphp
 

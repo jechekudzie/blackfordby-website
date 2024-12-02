@@ -12,7 +12,7 @@
     <!--==============================
 Breadcumb
 ===============================-->
-    <div class="breadcumb-wrapper" data-bg-src="assets/images/blackfordsiteimages_Aboutusbanner.png">
+    <div class="breadcumb-wrapper" data-bg-src="assets/images/BlackfordSiteImages_About_us_banner.jpg">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About Blackfordby College of Agriculture</h1>
@@ -32,7 +32,8 @@ Breadcumb
                 <!-- Image Section -->
                 <div class="col-lg-6">
                     <div class="about-img">
-                        <img src="{{ asset('assets/images/blackfordsiteimages_Hopeinagric.png') }}" alt="Blackfordby Campus">
+                        <img src="{{ asset('assets/images/BlackfordSiteImages_yourJny.jpg') }}"
+                             alt="Blackfordby Campus">
                     </div>
                 </div>
 
@@ -64,34 +65,40 @@ Breadcumb
                 <div class="col-lg-4">
                     <div class="about-style1 border1">
                         <div class="about-inner">
-                            <div class="about-icon" style="display: flex; justify-content: center; align-items: center;">
+                            <div class="about-icon"
+                                 style="display: flex; justify-content: center; align-items: center;">
                                 <i style="color: #065d40" class="fa fa-chalkboard-teacher"></i>
                             </div>
 
                             <h3 class="about-title">Innovative Teaching</h3>
-                            <p class="about-text">Our programs integrate practical training with academic excellence.</p>
+                            <p class="about-text">Our programs integrate practical training with academic
+                                excellence.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="about-style1 border1">
                         <div class="about-inner">
-                            <div class="about-icon" style="display: flex; justify-content: center; align-items: center;">
+                            <div class="about-icon"
+                                 style="display: flex; justify-content: center; align-items: center;">
                                 <i style="color:#065d40;" class="fa fa-user-graduate"></i>
                             </div>
                             <h3 class="about-title">Future Leaders</h3>
-                            <p class="about-text">We empower students to thrive in the evolving world of agriculture.</p>
+                            <p class="about-text">We empower students to thrive in the evolving world of
+                                agriculture.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="about-style1 border1">
                         <div class="about-inner">
-                            <div class="about-icon" style="display: flex; justify-content: center; align-items: center;">
+                            <div class="about-icon"
+                                 style="display: flex; justify-content: center; align-items: center;">
                                 <i style="color:#065d40;" class="fa fa-seedling"></i>
                             </div>
                             <h3 class="about-title">Sustainability Focus</h3>
-                            <p class="about-text">We emphasize sustainable practices for long-term agricultural success.</p>
+                            <p class="about-text">We emphasize sustainable practices for long-term agricultural
+                                success.</p>
                         </div>
                     </div>
                 </div>
@@ -106,30 +113,43 @@ Breadcumb
                 <!-- Text Content -->
                 <div class="col-lg-6">
                     <div class="content-area">
-                        <h6 class="subtitle text-theme">Our Purpose</h6>
-                        <p class="text-light">
-                            Blackfordby Agriculture College is committed to excellence in agricultural education and innovation. We inspire students to shape the future of farming through sustainable and modern practices.
-                        </p>
 
                         <h3 class="subheading text-theme mt-4">Our Vision</h3>
                         <p class="text-light">
-                            To be a regional leader in agricultural education, empowering future generations to transform farming for a thriving, food-secure world.
+                            To be a leading professional agricultural college committed to excellence.
                         </p>
 
                         <h3 class="subheading text-theme mt-4">Our Mission</h3>
-                        <ul class="list-unstyled">
-                            <li><i class="fas fa-check-circle text-theme"></i> Provide cutting-edge knowledge and practical skills in farming and agribusiness.</li>
-                            <li><i class="fas fa-check-circle text-theme"></i> Foster leadership, innovation, and sustainability in agriculture.</li>
-                            <li><i class="fas fa-check-circle text-theme"></i> Create a supportive environment for growth and learning.</li>
-                            <li><i class="fas fa-check-circle text-theme"></i> Contribute to Zimbabwe’s and the SADC region’s agricultural development.</li>
-                        </ul>
+                        <p class="text-light">
+                            To develop and offer world class formal agricultural training programmes to the
+                            farming community, with emphasis on the commercial aspects of farm
+                            management and achievement of sustainable practices through implementation
+                            of proficient farming techniques.
+
+                        </p>
+
+                        <h6 class="subtitle text-theme">Our Moto</h6>
+                        <p class="text-light">
+                            Spes in Agricultura, which means “Hope in Agriculture”
+                        </p>
+
+                        <h6 class="subtitle text-theme">Our Purpose</h6>
+                        <p class="text-light">
+                            Agricultural training and education for the future.
+                        </p>
+                        <p class="text-light">
+                            Blackfordby Agriculture College is committed to excellence in agricultural education and
+                            innovation. We inspire students to shape the future of farming through sustainable and
+                            modern practices.
+                        </p>
                     </div>
                 </div>
 
                 <!-- Image Content -->
                 <div class="col-lg-6 text-center">
                     <div class="image-area">
-                        <img src="{{ asset('assets/images/blackfordsiteimages_PurposeVsnMsn.png') }}" alt="Vision and Mission" class="img-fluid shadow rounded">
+                        <img src="{{ asset('assets/images/BlackfordSiteImages_PurVsnMsn.jpg') }}"
+                             alt="Vision and Mission" class="img-fluid shadow rounded">
                     </div>
                 </div>
             </div>

@@ -99,11 +99,30 @@ Header Area
                 <div class="col-auto">
                     <div class="header-links">
                         <ul>
-                            <li><i style="color:#FFD800FF" class="far fa-map-marker-alt"></i>Klein Kopjes Farm, Concession, Mazowe District</li>
-                            <li><i style="color:#FFD800FF" class="far fa-envelope"></i><a href="mailto:admin@blackfordby.co.zw">admin@blackfordby.co.zw</a>
+                            <li>
+                                <i style="color:#FFD800FF" class="far fa-map-marker-alt">
+                                </i>Klein Kopjes Farm, Concession, Mazowe District
+                                <br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                             </li>
-                            <li><i style="color:#FFD800FF" class="far fa-phone-alt"></i><a href="tel:+263772887370">+263 772 887 370</a></li>
-                            <li><i style="color:#FFD800FF" class="far fa-clock"></i>Mon - Sat: 09.00 to 06.00</li>
+
+                            <li>
+                                <i style="color:#FFD800FF" class="far fa-envelope"></i>
+                                <a href="mailto:info@blackfordbyagric.ac.zw">info@blackfordbyagric.ac.zw</a><br/>
+                                <i style="color:#FFD800FF" class="far fa-envelope"></i>
+                                <a href="mailto:info@blackfordby.co.zw">info@blackfordby.co.zw</a>
+                            </li>
+                            <li>
+                                <i style="color:#FFD800FF" class="far fa-phone-alt"></i>
+                                <a href="tel:+263772887370">+263 772 887 370</a><br/>
+                                <i style="color:#FFD800FF" class="far fa-phone-alt"></i>
+                                <a href="tel:+263775884968">+263 775 884 968</a>
+                            </li>
+                            <li><i style="color:#FFD800FF" class="far fa-clock">
+                                </i>Mon - Sat: 08.00 to 16.30
+                                <br/>
+                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -191,7 +210,7 @@ Header Area
                             <h3 class="media-title">Contact Us:</h3>
                             <p class="media-info">
                                 <a href="tel:+263772887370">+263 772 887 370</a><br>
-                                Mon - Sat: 08:00 AM to 05:00 PM
+                                <a href="tel:+263775884968">+263 775 884 968</a><br>
                             </p>
                         </div>
                     </div>
@@ -202,8 +221,8 @@ Header Area
                         <div class="media-body">
                             <h3 class="media-title">Email Address:</h3>
                             <p class="media-info">
-                                <a href="mailto:admin@blackfordby.co.zw">admin@blackfordby.co.zw</a><br>
-                                <a href="mailto:agfordby@mweb.co.zw">agfordby@mweb.co.zw</a>
+                                <a href="mailto:admin@blackfordby.co.zw">info@blackfordbyagric.ac.zw</a><br>
+                                <a href="mailto:agfordby@mweb.co.zw">info@blackfordby.co.zw</a>
                             </p>
                         </div>
                     </div>

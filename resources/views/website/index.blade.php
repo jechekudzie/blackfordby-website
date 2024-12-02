@@ -17,7 +17,7 @@ Hero Area
         <div class="position-relative">
             <div class="vs-carousel hero-slider1" data-slide-show="1" data-autoplay="true" data-fade="true">
                 <!-- Slide 1 -->
-                <div class="hero-slide" data-bg-src="{{ asset('assets/images/blackfordsiteimages_HomeBanner1.png') }}">
+                <div class="hero-slide" data-bg-src="{{ asset('assets/images/BlackfordSiteImages_Home_Banner_1.jpg') }}">
                     <div class="container">
                         <div class="row align-items-center justify-content-center">
                             <div class="col-lg-8 mx-auto">
@@ -32,7 +32,7 @@ Hero Area
                     </div>
                 </div>
                 <!-- Slide 2 -->
-                <div class="hero-slide" data-bg-src="{{ asset('assets/images/blackfordsiteimages_HomeBanner2.png') }}">
+                <div class="hero-slide" data-bg-src="{{ asset('assets/images/BlackfordSiteImages_Home_Banner_2.jpg') }}">
                     <div class="container">
                         <div class="row align-items-center justify-content-center">
                             <div class="col-lg-8 mx-auto">
@@ -47,7 +47,7 @@ Hero Area
                     </div>
                 </div>
                 <!-- Slide 3 -->
-                <div class="hero-slide" data-bg-src="{{ asset('assets/images/blackfordsiteimages_HomeBanner3.png') }}">
+                <div class="hero-slide" data-bg-src="{{ asset('assets/images/BlackfordSiteImages_Home_Banner_3.jpg') }}">
                     <div class="container">
                         <div class="row align-items-center justify-content-center">
                             <div class="col-lg-8 mx-auto">
@@ -78,7 +78,7 @@ Hero Area
                 <!-- Image Section -->
                 <div class="col-lg-6">
                     <div class="about-img">
-                        <img src="{{ asset('assets/images/blackfordsiteimages_Hopeinagric.png') }}" alt="Blackfordby Campus">
+                        <img src="{{ asset('assets/images/BlackfordSiteImages_yourJny.jpg') }}" alt="Blackfordby Campus">
                     </div>
                 </div>
 
@@ -164,11 +164,9 @@ Hero Area
                 <!-- Image Section -->
                 <div class="col-lg-6">
                     <div class="about-img">
-                        <img src="{{ asset('/assets/images/blackfordsiteimages_Tailered.png') }}" alt="Programs Overview">
+                        <img src="{{ asset('/assets/images/BlackfordSiteImages_Diploma_full.jpg') }}" alt="Programs Overview">
                     </div>
                 </div>
-
-
             </div>
 
             <!-- Program Details Section -->
@@ -243,10 +241,10 @@ Hero Area
             </div>
             <div class="row g-3 vs-carousel" data-arrows="false" data-dots="true" data-autoplay="true" data-slide-show="2">
                 <div class="col-auto">
-                    <a href="#"><img src="{{asset('assets/images/blackfordsiteimages_WhyfultimeProgram.png')}}" alt="Blog Image"></a>
+                    <a href="#"><img src="{{asset('assets/images/BlackfordSiteImages_Why_fultimeProgram.jpg')}}" alt="Blog Image"></a>
                 </div>
                 <div class="col-auto">
-                    <a href="#"><img src="{{asset('assets/images/blackfordsiteimages_WhyParttimeProgram.png')}}" alt="Blog Image"></a>
+                    <a href="#"><img src="{{asset('assets/images/BlackfordSiteImages_WhyParttimeProgram.jpg')}}" alt="Blog Image"></a>
                 </div>
             </div>
         </div>
@@ -291,7 +289,7 @@ Hero Area
                 <!-- Decorative Image Section -->
                 <div class="col-xl-4 col-lg-12">
                     <div class="admissions-img">
-                        <img src="{{asset('assets/images/blackfordsiteimages_yourJny.png')}}" alt="Admissions Overview">
+                        <img src="{{asset('assets/images/BlackfordSiteImages_applying.jpg')}}" alt="Admissions Overview">
                     </div>
                 </div>
             </div>
@@ -317,8 +315,8 @@ Hero Area
                                     <span class="icon"><i class="far fa-envelope"></i></span>
                                     <strong>Online Applications:</strong> Request enrollment forms via email or WhatsApp, or submit them digitally.
                                     <div class="mt-2">
-                                        <a href="{{ route('website.online-application') }}" class="vs-btn" style="color: white; text-transform: uppercase; background-color: #28a745; padding: 10px 20px; border-radius: 5px; display: inline-block;">
-                                            Click Here to Start Your Online Application
+                                        <a href="{{ asset('documents/Application Form GAD28 May 2025 Full Time Intake.pdf')}}" target="_blank" class="vs-btn" style="color: white; text-transform: uppercase; background-color: #28a745; padding: 10px 20px; border-radius: 5px; display: inline-block;">
+                                            Click Here to Start Your Application
                                         </a>
                                     </div>
                                 </li>
@@ -334,7 +332,7 @@ Hero Area
                 <!-- Decorative Image Section -->
                 <div class="col-lg-4">
                     <div class="apply-img">
-                        <img src="{{asset('assets/images/blackfordsiteimages_applying.png')}}" alt="How to Apply">
+                        <img src="{{asset('assets/images/BlackfordSiteImages_applying.jpg')}}" alt="How to Apply">
                     </div>
                 </div>
             </div>
@@ -342,7 +340,7 @@ Hero Area
     </section>
 
 
-    <section class="provide-layout1 space" data-bg-src="{{asset('assets/images/blackfordsiteimages_Alegacy.png')}}">
+    <section class="provide-layout1 space" data-bg-src="{{asset('assets/images/BlackfordSiteImages_A_legacy.jpg')}}">
         <div class="container">
             <div class="row">
                 <div class="col-xl-8 col-lg-12">
