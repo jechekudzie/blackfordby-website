@@ -11,7 +11,7 @@
     <!--==============================
     Breadcumb
     ===============================-->
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/images/BlackfordSiteImages_Student_life.jpg') }}">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/images/stdentlifebanner.jpg') }}">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Student Life</h1>

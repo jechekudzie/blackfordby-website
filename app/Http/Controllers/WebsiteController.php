@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\ContactFormMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\Mail;
 
 class WebsiteController extends Controller
 {
@@ -66,5 +69,25 @@ class WebsiteController extends Controller
     {
         return view('website.downloads');
     }
+
+    //send email using mail
+    public function send(Request $request)
+    {
+
+        $request->validate([
+            'name' => 'required|string',
+            'email' => 'required|email',
+            'message' => 'required|string',
+            'g-recaptcha-response' => 'required|captcha',
+        ]);
+
+        $data = $request->only(['name', 'email', 'message']);
+
+        // Send the email
+        Mail::to('info@blackfordbyagric.ac.zw')->send(new ContactFormMail($data));
+
+        return redirect()->back()->with('success', 'Your message has been sent successfully!');
+    }
+
 
 }

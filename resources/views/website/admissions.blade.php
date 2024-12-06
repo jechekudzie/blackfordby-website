@@ -11,7 +11,7 @@
     <!--==============================
     Breadcumb
     ===============================-->
-    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/images/BlackfordSiteImages_Admissions.jpg') }}">
+    <div class="breadcumb-wrapper" data-bg-src="{{ asset('assets/images/ADMISSIONS.jpg') }}">
         <div class="container z-index-common">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Admissions</h1>
@@ -52,6 +52,113 @@
         </div>
     </section>
 
+    <section class="about-layout1 space">
+        <div class="container">
+            <div class="row gx-5 justify-content-end">
+                <!-- Content Section -->
+                <div class="col-lg-6">
+                    <div class="about-content">
+                        <div class="title-area wow fadeInUp wow-animated" data-wow-delay="0.3s">
+                            <span class="sec-subtitle">Our Programs</span>
+                            <h2 class="sec-title">Tailored Pathways to Agricultural Excellence</h2>
+                        </div>
+                        <p class="about-text">
+                            At Blackfordby, we offer two distinct yet complementary diploma programs to cater to the diverse needs of our students:
+                        </p>
+                    </div>
+                </div>
+                <!-- Image Section -->
+                <div class="col-lg-6">
+                    <div class="about-img">
+                        <img src="{{ asset('/assets/images/BlackfordSiteImages_Diploma_full.jpg') }}" alt="Programs Overview">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Program Details Section -->
+            <div class="row mt-5">
+                <!-- Full-Time Program -->
+                <div class="col-lg-6">
+                    <div class="about-style1 border1">
+                        <div class="about-inner">
+                            <div class="about-icon">
+                                <i style="color: #065d40" class="fa fa-book"></i>
+                            </div>
+                            <h3 class="about-title">Diploma in Agriculture (Full-Time Program)</h3>
+                            <p class="about-text">
+                                Our immersive two-year program blends academic learning with hands-on training in:
+                            </p>
+                            <div class="list-style1">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span class="icon"><i class="far fa-check-circle"></i></span>
+                                        Animal Production: Health, nutrition, and management of livestock.
+                                    </li>
+                                    <li>
+                                        <span class="icon"><i class="far fa-check-circle"></i></span>
+                                        Crop Production: Soil science, crop protection, and post-harvest handling.
+                                    </li>
+                                    <li>
+                                        <span class="icon"><i class="far fa-check-circle"></i></span>
+                                        Farm Mechanisation: Irrigation systems, machinery management, and energy solutions.
+                                    </li>
+                                    <li>
+                                        <span class="icon"><i class="far fa-check-circle"></i></span>
+                                        Agribusiness Management: Budgeting, marketing, and enterprise management.
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>The program includes a year-long industrial attachment on successful commercial farms.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Part-Time Program -->
+                <div class="col-lg-6">
+                    <div class="about-style1">
+                        <div class="about-inner">
+                            <div class="about-icon">
+                                <i style="color:#FFD800FF" class="fa fa-laptop"></i>
+                            </div>
+                            <h3 class="about-title">Diploma in Agriculture (Part-Time Program)</h3>
+                            <p class="about-text">
+                                Designed for professionals, this program offers flexibility with:
+                            </p>
+                            <div class="list-style1">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <span class="icon"><i class="far fa-check-circle"></i></span>
+                                        Online Learning: Google Classroom and WhatsApp platforms.
+                                    </li>
+                                    <li>
+                                        <span class="icon"><i class="far fa-check-circle"></i></span>
+                                        Practical Sessions: Face-to-face training on Saturdays.
+                                    </li>
+                                    <li>
+                                        <span class="icon"><i class="far fa-check-circle"></i></span>
+                                        Balanced Scheduling: Academic and professional commitments aligned.
+                                    </li>
+                                </ul>
+                            </div>
+                            <p>An ideal choice for those looking to deepen their expertise without compromising their work or personal life.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3 vs-carousel" data-arrows="false" data-dots="true" data-autoplay="true" data-slide-show="2">
+                <div class="col-auto">
+                    <a href="#"><img src="{{asset('assets/images/BlackfordSiteImages_Why_fultimeProgram.jpg')}}" alt="Blog Image"></a>
+                </div>
+                <div class="col-auto">
+                    <a href="#"><img src="{{asset('assets/images/BlackfordSiteImages_WhyParttimeProgram.jpg')}}" alt="Blog Image"></a>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
     <!--==============================
     Entry Requirements
     ===============================-->
@@ -78,7 +185,7 @@
     <!--==============================
     Key Differences
     ===============================-->
-    <section class="program-differences space">
+  {{--  <section class="program-differences space">
         <div class="container">
             <h2 class="sec-title text-center">Key Differences Between Full-Time and Part-Time Programs</h2>
             <div class="row mt-4">
@@ -101,7 +208,7 @@
             </div>
         </div>
     </section>
-
+--}}
     <!--==============================
     How to Apply
     ===============================-->

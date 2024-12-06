@@ -17,7 +17,7 @@ Hero Area
         <div class="position-relative">
             <div class="vs-carousel hero-slider1" data-slide-show="1" data-autoplay="true" data-fade="true">
                 <!-- Slide 1 -->
-                <div class="hero-slide" data-bg-src="{{ asset('assets/images/BlackfordSiteImages_Home_Banner_1.jpg') }}">
+                <div class="hero-slide" data-bg-src="{{ asset('assets/images/transformingbanner.jpg') }}">
                     <div class="container">
                         <div class="row align-items-center justify-content-center">
                             <div class="col-lg-8 mx-auto">
@@ -32,7 +32,7 @@ Hero Area
                     </div>
                 </div>
                 <!-- Slide 2 -->
-                <div class="hero-slide" data-bg-src="{{ asset('assets/images/BlackfordSiteImages_Home_Banner_2.jpg') }}">
+                <div class="hero-slide" data-bg-src="{{ asset('assets/images/joinexce.jpg') }}">
                     <div class="container">
                         <div class="row align-items-center justify-content-center">
                             <div class="col-lg-8 mx-auto">

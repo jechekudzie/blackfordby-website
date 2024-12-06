@@ -138,10 +138,10 @@
                         <ul class="list-unstyled">
                             <li>
                                 <i class="far fa-envelope text-theme"></i>
-                                <strong>Online Applications:</strong> Request enrollment forms via email or WhatsApp and submit them digitally.
-                                <div class="mt-2">
+                                <strong>Applications:</strong> Request enrollment forms via email or WhatsApp and submit them digitally.
+                               {{-- <div class="mt-2">
                                     <a href="{{ asset('documents/Application Form GAD28 May 2025 Full Time Intake.pdf')}}" target="_blank" class="vs-btn mt-2">Start Your Application</a>
-                                </div>
+                                </div>--}}
                             </li>
                             <li>
                                 <i class="fas fa-building text-theme"></i>

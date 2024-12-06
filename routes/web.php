@@ -63,6 +63,10 @@ Route::get('/privacy-policy', [WebsiteController::class, 'privacyPolicy'])->name
 
 
 
+
+Route::post('/contact-send', [WebsiteController::class, 'send'])->name('contact-send');
+
+
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

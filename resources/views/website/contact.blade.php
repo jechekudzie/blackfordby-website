@@ -9,9 +9,12 @@
 @endpush
 
 @section('content')
-    <!--==============================
-Breadcumb
-===============================-->
+    <style>
+        .grecaptcha-badge {
+            visibility: hidden;
+        }
+    </style>
+
     <div class="breadcumb-wrapper">
         <div class="container z-index-common">
             <div class="breadcumb-content">
@@ -44,34 +47,47 @@ Breadcumb
                                 <p class="form-text">Please fill out the form below and one of our recruitment
                                     specialists will get back to you shortly.</p>
                             </div>
-                            <form action="mail.php" method="post" class="form-style3 ajax-contact">
+                            @if (session('success'))
+                                <div class="alert alert-success alert-dismissible fade show" role="alert">
+                                    <strong>Success!</strong> {{ session('success') }}
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            @endif
+
+                            @if (session('error'))
+                                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                                    <strong>Error!</strong> {{ session('error') }}
+                                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                </div>
+                            @endif
+
+                            <form action="{{ route('contact-send') }}" method="POST" class="form-style3">
+                                @csrf
                                 <div class="row">
                                     <div class="col-12 form-group">
-                                        <textarea name="message" class="form-control" placeholder="Message"
-                                                  required></textarea>
+                                        <textarea name="message" class="form-control" placeholder="Message" required></textarea>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input name="fname" type="text" class="form-control" placeholder="Name"
-                                               required>
+                                        <input name="name" type="text" class="form-control" placeholder="Name" required>
                                     </div>
                                     <div class="col-md-6 form-group">
-                                        <input name="email" type="email" class="form-control"
-                                               placeholder="Email Address" required>
+                                        <input name="email" type="email" class="form-control" placeholder="Email Address" required>
                                     </div>
-                                    <div class="col-12">
-                                        <div class="custom-checkbox notice">
-                                            <input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent"
-                                                   type="checkbox" value="yes">
-                                            <label for="wp-comment-cookies-consent"> Save my name, email, and website in
-                                                this browser for the next time I comment.</label>
-                                        </div>
+
+                                    <!-- Add reCAPTCHA -->
+                                    <div class="col-12 form-group text-center">
+                                        {!! NoCaptcha::display() !!}
                                     </div>
+
                                     <div class="col-12 form-group">
                                         <button class="vs-btn" type="submit">Send Message</button>
                                     </div>
                                 </div>
                             </form>
-                            <p class="form-messages mb-0 mt-3"></p>
+
+                            <!-- reCAPTCHA Scripts -->
+                            {!! NoCaptcha::renderJs() !!}
+
                         </div>
                     </div>
                 </div>
@@ -98,7 +114,7 @@ Breadcumb
                                     <h3 class="media-title">Email Address:</h3>
                                     <p class="media-info">
                                         <a href="mailto:info@blackfordbyagric.ac.zw">info@blackfordbyagric.ac.zw</a><br>
-                                        <a href="mailto:info@blackfordby.co.zw">info@blackfordby.co.zw</a>
+                                        <a href="mailto:admin@blackfordby.co.zw">admin@blackfordby.co.zw</a>
                                     </p>
                                 </div>
                             </div>
@@ -134,5 +150,6 @@ Breadcumb
 
 @push('scripts')
     <!-- Additional page specific scripts in custom.js -->
+
 
 @endpush

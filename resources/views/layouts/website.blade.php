@@ -110,7 +110,7 @@ Header Area
                                 <i style="color:#FFD800FF" class="far fa-envelope"></i>
                                 <a href="mailto:info@blackfordbyagric.ac.zw">info@blackfordbyagric.ac.zw</a><br/>
                                 <i style="color:#FFD800FF" class="far fa-envelope"></i>
-                                <a href="mailto:info@blackfordby.co.zw">info@blackfordby.co.zw</a>
+                                <a href="mailto:admin@blackfordby.co.zw">admin@blackfordby.co.zw</a>
                             </li>
                             <li>
                                 <i style="color:#FFD800FF" class="far fa-phone-alt"></i>
@@ -222,7 +222,7 @@ Header Area
                             <h3 class="media-title">Email Address:</h3>
                             <p class="media-info">
                                 <a href="mailto:admin@blackfordby.co.zw">info@blackfordbyagric.ac.zw</a><br>
-                                <a href="mailto:agfordby@mweb.co.zw">info@blackfordby.co.zw</a>
+                                <a href="mailto:admin@admin@blackfordby.co.zw">admin@blackfordby.co.zw</a>
                             </p>
                         </div>
                     </div>
@@ -354,11 +354,23 @@ Header Area
 <!-- Main Js File -->
 <script src="{{ asset('assets/js/main.js') }}"></script>
 
-<script>
 
-
-</script>
 @stack('scripts')
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/67516d2b4304e3196aecab4f/1ieb14soq';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
+
 
 </body>
 
